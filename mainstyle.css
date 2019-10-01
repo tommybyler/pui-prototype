@@ -1,0 +1,16 @@
+h1 {
+  font-family: 'Sanchez', serif;
+  padding: 20px;
+  float: left;
+}
+
+h2 {
+  font-family: 'Sanchez', serif;
+  text-align: right;
+  padding: 20px;
+  float: right;
+}
+
+#mission {
+  font-family: 'Open Sans', sans-serif;
+}
