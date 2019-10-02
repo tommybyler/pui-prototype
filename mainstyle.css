@@ -1,16 +1,50 @@
-h1 {
+/** {
+   border: 1px solid red !important;
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  position: fixed;
+  display: inline;
   font-family: 'Sanchez', serif;
-  padding: 20px;
+  font-size: 30px;
+  background-color: #AE9883;
+  width: 100%;
+  top: 0;
+}
+
+
+.logo {
   float: left;
-}
-
-h2 {
-  font-family: 'Sanchez', serif;
-  text-align: right;
   padding: 20px;
-  float: right;
+  /*width: 100%;*/
 }
 
-#mission {
+.navitem {
+  float:right;
+  padding: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #4B3C2E;
+}
+
+.mission {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  color: white;
+}
+
+.header {
+  width: 100%;
 }
