@@ -9,8 +9,6 @@
 
 .nav {
   list-style-type: none;
-  margin: 0;
-  padding: 20;
   position: fixed;
   display: inline;
   font-family: 'Sanchez', serif;
@@ -93,7 +91,7 @@ li a {
 .shopby {
   font-family: 'Sanchez', serif;
   font-size: 30px;
-  margin: 150px 0 0 0;
+  margin: 150px 0 60px 0;
   text-align: center;
 }
 
@@ -133,4 +131,83 @@ li a {
 
 .cardrating {
   margin: 0 0 10px 20px;
+}
+
+.grid {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.shopbygrid {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+
+.shoptypea {
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-indent: -10%;
+  grid-column: 2;
+}
+
+.shoptypeb {
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-indent: -15%;
+  grid-column: 3;
+}
+
+.shoptypec {
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-indent: -30%;
+  grid-column: 4;
+}
+
+.shoptypeimg {
+  width: 600px;
+  height: auto;
+}
+
+.detailgrid {
+  display: grid;
+  height: 650px;
+  width: 80%;
+  margin-left: 60px;
+  grid-template-columns: 800px auto;
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 70px;
+  grid-row-gap: 30px;
+}
+
+.detaillink {
+  text-decoration: none;
+  color: black;
+}
+
+.resize2 {
+  width: 1000px;
+  height: auto;
+}
+
+.detailpic {
+  max-width: 800px;
+  overflow: hidden;
+  grid-row: 1 / 8;
+}
+
+.detailtext {
+  font-family: 'Sanchez', serif;
+  font-size: 30px;
+  grid-column: 2;
 }
